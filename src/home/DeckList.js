@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { listDecks, deleteDeck } from "../utils/api/index.js";
+import { listDecks } from "../utils/api/index.js";
+import { deleteDeck } from "../utils/api/index.js";
 import DeckSnapshot from "./DeckSnapshot";
 import { useHistory } from "react-router-dom";
 
@@ -39,7 +40,7 @@ export const DeckList = () => {
   ));
 
   return (
-    <main>
+    <div>
       <section>
         <div className="container">
           <button
@@ -51,7 +52,7 @@ export const DeckList = () => {
           <div className>{list}</div>
         </div>
       </section>
-    </main>
+    </div>
   );
 };
 

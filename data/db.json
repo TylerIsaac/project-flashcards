@@ -58,6 +58,12 @@
       "back": "test",
       "deckId": 3,
       "id": 8
+    },
+    {
+      "front": "the quick brown fox",
+      "back": "jumped of the yellow fence.",
+      "deckId": 1,
+      "id": 9
     }
   ]
 }
